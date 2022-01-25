@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+
+<body>
+    <section id="todolist">
+        <!-- Titre -->
+        <h1 class="text-center text-bold my-5">Todo List</h1>
+
+        <!-- Remplir les tâches -->
+        <div class="container">
+            <div class="input-group my-3">
+                <input type="text" class="form-control rounded py-3 fs-5" placeholder="Ajoutez une tâche">
+                <button class="btn btn-outline-light ms-1 rounded px-5 fs-5" type="button">Ajouter</button>
+            </div>
+
+            <!-- Filter -->
+            <div class="my-3 d-flex justify-content-center">
+                <button type="button" class="fs-5 px-4 py-2 mx-2 btn btn-primary">All</button>
+                <button type="button" class="fs-5 px-4 py-2 mx-2 btn btn-success">Done</button>
+                <button type="button" class="fs-5 px-4 py-2 mx-2 btn bg-purple">To do</button>
+            </div>
+
+            <!-- Liste -->
+            <ul>
+                <li class="d-flex">Hello
+                    <div class="icons">
+                        <button type="button" class="btn bg-green"><i class="fas fa-check"></i></button>
+                        <button type="button" class="btn btn-warning"><i class="far fa-edit"></i></button>
+                        <button type="button" class="btn btn-danger"><i class="far fa-trash-alt"></i></button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+
+</html>
